@@ -7,6 +7,7 @@ const io = require('socket.io')(server, {});
 const eventHandlers = require('./eventHandlers');
 
 io.on('connection', socket => {
+    console.log('connected');
     eventHandlers.forEach(({event, createHandler}) => {
         socket.on(event, createHandler(socket))
     });
