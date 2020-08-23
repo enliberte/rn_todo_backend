@@ -1,0 +1,7 @@
+module.exports = {
+    ADD_TODO: 'ADD_TODO',
+    DELETE_TODO: 'DELETE_TODO',
+    EDIT_TODO: 'EDIT_TODO',
+    GET_TODOS: 'GET_TODOS',
+    SET_TODOS: 'SET_TODOS'
+}

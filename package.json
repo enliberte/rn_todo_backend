@@ -1,0 +1,25 @@
+{
+  "name": "rn_todo_backend",
+  "version": "1.0.0",
+  "description": "Backend for React Native todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enliberte/rn_todo_backend.git"
+  },
+  "author": "enliberte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enliberte/rn_todo_backend/issues"
+  },
+  "homepage": "https://github.com/enliberte/rn_todo_backend#readme",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "socket.io": "^2.3.0"
+  }
+}
